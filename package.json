@@ -1,0 +1,22 @@
+{
+  "name": "tech-radar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tech-radar-generator ./devops-radar.json ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavrashenko/tech-radar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gavrashenko/tech-radar/issues"
+  },
+  "homepage": "https://github.com/gavrashenko/tech-radar#readme",
+  "devDependencies": {
+    "tech-radar-generator": "^0.5.2"
+  }
+}
