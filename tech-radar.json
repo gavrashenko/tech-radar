@@ -95,6 +95,13 @@
       "description": ""
     },
     {
+      "name": "Sightengine",
+      "quadrant": "Tools",
+      "ring": "adopt",
+      "isNew": false,
+      "description": ""
+    },
+    {
       "name": "ElasticSearch",
       "quadrant": "Tools",
       "ring": "adopt",
@@ -137,21 +144,21 @@
       "description": ""
     },
     {
-      "name": "Consul",
+      "name": "Hashicorp Consul",
       "quadrant": "Tools",
       "ring": "adopt",
       "isNew": false,
       "description": ""
     },
     {
-      "name": "Postgresql",
+      "name": "PostgreSQL",
       "quadrant": "Tools",
       "ring": "adopt",
       "isNew": false,
       "description": ""
     },
     {
-      "name": "BigQuery",
+      "name": "GCP BigQuery",
       "quadrant": "Tools",
       "ring": "adopt",
       "isNew": false,
@@ -172,14 +179,14 @@
       "description": ""
     },
     {
-      "name": "Helm",
+      "name": "Helm 3",
       "quadrant": "Tools",
       "ring": "adopt",
       "isNew": false,
       "description": ""
     },
     {
-      "name": "Terraform",
+      "name": "HashiCorp Terraform",
       "quadrant": "Tools",
       "ring": "adopt",
       "isNew": false,
@@ -193,7 +200,7 @@
       "description": ""
     },
     {
-      "name": "Ingress GCE",
+      "name": "GCP GKE Ingress",
       "quadrant": "Tools",
       "ring": "adopt",
       "isNew": false,
@@ -207,14 +214,21 @@
       "description": ""
     },
     {
-      "name": "Github",
+      "name": "GitHub",
       "quadrant": "Platforms",
       "ring": "adopt",
       "isNew": false,
       "description": ""
     },
     {
-      "name": "MacOS",
+      "name": "Mobile Web",
+      "quadrant": "Platforms",
+      "ring": "adopt",
+      "isNew": false,
+      "description": ""
+    },
+    {
+      "name": "JetBrains YouTrack",
       "quadrant": "Platforms",
       "ring": "adopt",
       "isNew": false,
@@ -228,23 +242,135 @@
       "description": ""
     },
     {
-      "name": "Grpc",
+      "name": "gRPC",
       "quadrant": "Techniques",
       "ring": "adopt",
       "isNew": false,
       "description": ""
     },
     {
-      "name": "Github Actions",
+      "name": "GitHub Actions",
       "quadrant": "Techniques",
       "ring": "adopt",
       "isNew": false,
       "description": ""
     },
     {
-      "name": "IAP",
+      "name": "GCP Identity Aware Proxy (IAP)",
       "quadrant": "Techniques",
       "ring": "adopt",
+      "isNew": false,
+      "description": ""
+    },
+    {
+      "name": "GCP Compute Engine",
+      "quadrant": "Platforms",
+      "ring": "adopt",
+      "isNew": false,
+      "description": ""
+    },
+    {
+      "name": "GCP Kubernetes Engine (GKE)",
+      "quadrant": "Platforms",
+      "ring": "adopt",
+      "isNew": false,
+      "description": ""
+    },
+    {
+      "name": "GCP Cloud Storage",
+      "quadrant": "Platforms",
+      "ring": "adopt",
+      "isNew": false,
+      "description": ""
+    },
+    {
+      "name": "GCP Cloud CDN",
+      "quadrant": "Platforms",
+      "ring": "adopt",
+      "isNew": false,
+      "description": ""
+    },
+    {
+      "name": "GCP Maps API, Places API",
+      "quadrant": "Platforms",
+      "ring": "adopt",
+      "isNew": false,
+      "description": ""
+    },
+    {
+      "name": "GCP Cloud Armor",
+      "quadrant": "Platforms",
+      "ring": "trial",
+      "isNew": false,
+      "description": ""
+    },
+    {
+      "name": "GCP Cloud Trace",
+      "quadrant": "Platforms",
+      "ring": "trial",
+      "isNew": false,
+      "description": ""
+    },
+    {
+      "name": "GCP Cloud Memorystore for Redis",
+      "quadrant": "Platforms",
+      "ring": "trial",
+      "isNew": false,
+      "description": ""
+    },
+    {
+      "name": "Envoy",
+      "quadrant": "Techniques",
+      "ring": "adopt",
+      "isNew": false,
+      "description": ""
+    },
+    {
+      "name": "Linkerd 2",
+      "quadrant": "Techniques",
+      "ring": "assess",
+      "isNew": false,
+      "description": ""
+    },
+    {
+      "name": "Grafana Tempo",
+      "quadrant": "Techniques",
+      "ring": "assess",
+      "isNew": false,
+      "description": ""
+    },
+    {
+      "name": "Grafana Mimir",
+      "quadrant": "Techniques",
+      "ring": "assess",
+      "isNew": false,
+      "description": ""
+    },
+    {
+      "name": "Grafana Mimir",
+      "quadrant": "Techniques",
+      "ring": "assess",
+      "isNew": false,
+      "description": ""
+    },
+    {
+      "name": "ArgoCD",
+      "quadrant": "Techniques",
+      "ring": "assess",
+      "isNew": false,
+      "description": ""
+    },
+    {
+      "name": "Argo Rollouts",
+      "quadrant": "Techniques",
+      "ring": "assess",
+      "isNew": false,
+      "description": ""
+    },
+    {
+      "name": "Hashicorp Vault",
+      "quadrant": "Techniques",
+      "ring": "assess",
       "isNew": false,
       "description": ""
     }
