@@ -347,13 +347,6 @@
       "description": ""
     },
     {
-      "name": "Grafana Mimir",
-      "quadrant": "Techniques",
-      "ring": "assess",
-      "isNew": false,
-      "description": ""
-    },
-    {
       "name": "ArgoCD",
       "quadrant": "Techniques",
       "ring": "assess",
