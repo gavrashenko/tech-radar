@@ -1,10 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <link href="images/favicon.ico" rel="icon"/>
-  <link href="main.33e5be3c91ad236466b7.css" rel="stylesheet"></head>
+<head>
+    <meta charset="UTF-8">
+    <title>SocialTech Radar</title>
+</head>
+<body>
 
-  <body>
-  <script type="text/javascript" src="main.33e5be3c91ad236466b7.js"></script></body>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://zalando.github.io/tech-radar/release/radar-0.7.js"></script>
+
+
+<svg id="radar"></svg>
+
+<script>
+  radar_visualization({
+    svg_id: "radar",
+    width: 1450,
+    height: 1000,
+    colors: {
+      background: "#fff",
+      grid: "#bbb",
+      inactive: "#ddd"
+    },
+    title: "SocialTech Radar",
+    quadrants: [
+      { name: "Programming Languages and Frameworks" },
+      { name: "Tools" },
+      { name: "Platforms" },
+      { name: "Techniques" }
+    ],
+    rings: [
+      { name: "adopt",  color: "#5ba300" },
+      { name: "trial", color: "#009eb0" },
+      { name: "assess",  color: "#c7ba00" },
+      { name: "hold",  color: "#e09b96" }
+    ],
+    print_layout: true,
+    links_in_new_tabs: true,
+    entries: [
+      { label: 'JavaScript', quadrant: 0, ring: 3, moved: 0 },
+      { label: 'TypeScript', quadrant: 0, ring: 0, moved: 0 },
+      { label: 'VueJS', quadrant: 0, ring: 0, moved: 0 },
+      { label: 'NuxtJS', quadrant: 0, ring: 0, moved: 0 },
+      { label: 'Jest', quadrant: 0, ring: 0, moved: 0 },
+      { label: 'Go', quadrant: 0, ring: 0, moved: 0 },
+      { label: 'Connect', quadrant: 0, ring: 2, moved: 0 },
+      {
+        label: 'ESLint + Prettier',
+        quadrant: 1,
+        ring: 0,
+        moved: 0
+      },
+      { label: 'Webpack', quadrant: 1, ring: 0, moved: 0 },
+      { label: 'Npm', quadrant: 1, ring: 3, moved: 0 },
+      { label: 'Yarn', quadrant: 1, ring: 0, moved: 0 },
+      { label: 'Sentry', quadrant: 1, ring: 0, moved: 0 },
+      { label: 'Smartlook', quadrant: 1, ring: 0, moved: 0 },
+      { label: 'Sightengine', quadrant: 1, ring: 0, moved: 0 },
+      { label: 'ElasticSearch', quadrant: 1, ring: 0, moved: 0 },
+      { label: 'MongoDB', quadrant: 1, ring: 0, moved: 0 },
+      { label: 'EventStoreDB', quadrant: 1, ring: 3, moved: 0 },
+      { label: 'Kafka', quadrant: 1, ring: 1, moved: 0 },
+      { label: 'RabbitMQ', quadrant: 1, ring: 0, moved: 0 },
+      { label: 'Redis', quadrant: 1, ring: 0, moved: 0 },
+      { label: 'Hashicorp Consul', quadrant: 1, ring: 0, moved: 0 },
+      { label: 'PostgreSQL', quadrant: 1, ring: 0, moved: 0 },
+      { label: 'GCP BigQuery', quadrant: 1, ring: 0, moved: 0 },
+      { label: 'Grafana', quadrant: 1, ring: 0, moved: 0 },
+      { label: 'Prometheus', quadrant: 1, ring: 0, moved: 0 },
+      { label: 'Helm 3', quadrant: 1, ring: 0, moved: 0 },
+      { label: 'HashiCorp Terraform', quadrant: 1, ring: 0, moved: 0 },
+      { label: 'Ansible', quadrant: 1, ring: 0, moved: 0 },
+      { label: 'GCP GKE Ingress', quadrant: 1, ring: 0, moved: 0 },
+      { label: 'NodeJS', quadrant: 2, ring: 0, moved: 0 },
+      { label: 'GitHub', quadrant: 2, ring: 0, moved: 0 },
+      { label: 'Mobile Web', quadrant: 2, ring: 0, moved: 0 },
+      { label: 'JetBrains YouTrack', quadrant: 2, ring: 0, moved: 0 },
+      { label: 'GCP', quadrant: 2, ring: 0, moved: 0 },
+      { label: 'gRPC', quadrant: 3, ring: 0, moved: 0 },
+      { label: 'GitHub Actions', quadrant: 3, ring: 0, moved: 0 },
+      {
+        label: 'GCP (IAP)',
+        quadrant: 3,
+        ring: 0,
+        moved: 0
+      },
+      { label: 'GCP Compute Engine', quadrant: 2, ring: 0, moved: 0 },
+      {
+        label: 'GCP Kubernetes Engine (GKE)',
+        quadrant: 2,
+        ring: 0,
+        moved: 0
+      },
+      { label: 'GCP Cloud Storage', quadrant: 2, ring: 0, moved: 0 },
+      { label: 'GCP Cloud CDN', quadrant: 2, ring: 0, moved: 0 },
+      { label: 'GCP Maps API, Places API', quadrant: 2, ring: 0, moved: 0 },
+      { label: 'GCP Cloud Armor', quadrant: 2, ring: 1, moved: 0 },
+      { label: 'GCP Cloud Trace', quadrant: 2, ring: 1, moved: 0 },
+      {
+        label: 'GCP Cloud Memorystore for Redis',
+        quadrant: 2,
+        ring: 1,
+        moved: 0
+      },
+      { label: 'Envoy', quadrant: 3, ring: 0, moved: 0 },
+      { label: 'Linkerd 2', quadrant: 3, ring: 2, moved: 0 },
+      { label: 'Grafana Tempo', quadrant: 3, ring: 2, moved: 0 },
+      { label: 'Grafana Mimir', quadrant: 3, ring: 2, moved: 0 },
+      { label: 'ArgoCD', quadrant: 3, ring: 2, moved: 0 },
+      { label: 'Argo Rollouts', quadrant: 3, ring: 2, moved: 0 },
+      { label: 'Hashicorp Vault', quadrant: 3, ring: 2, moved: 0 }
+    ]
+      // {
+      //   label: "Some Entry",
+      //   quadrant: 3,          // 0,1,2,3 (counting clockwise, starting from bottom right)
+      //   ring: 2,              // 0,1,2,3 (starting from inside)
+      //   moved: 0             // -1 = moved out (triangle pointing down)
+      //                         //  0 = not moved (circle)
+      //                         //  1 = moved in  (triangle pointing up)
+      // },
+      // ...
+
+  });
+</script>
+
+</body>
 </html>
